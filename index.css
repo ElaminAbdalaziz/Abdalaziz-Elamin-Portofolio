@@ -130,16 +130,16 @@ span{
     top: 3rem;
         width: 32vw;
     border-radius: 50%;
-    box-shadow: 0 0 25px var(--main-color);
+    box-shadow: 0 0 12px var(--main-color);
     cursor: pointer;
     transition: 0.4s ease-in-out;
     margin-top: 3rem;
 }
 
 .home-img img:hover{
-    box-shadow: 0 0 25px var(--main-color),
-                0 0 50px var(--main-color),
-                0 0 100px var(--main-color);
+    box-shadow: 0 0 20px var(--main-color),
+                0 0 30px var(--main-color),
+                0 0 50px var(--main-color);
 }
 
 .home-content p{
@@ -175,7 +175,7 @@ span{
     display: inline-block;
     padding: 1rem 2.8rem;
     background: var(--main-color);
-    box-shadow: 0 0 25px var(--main-color);
+    box-shadow: 0 0 15px var(--main-color);
     border-radius: 4rem;
     font-size: 1.6rem;
     color: black;
@@ -188,7 +188,7 @@ span{
 
 .btn:hover{
     transform: scale(1.05);
-    box-shadow: 0 0 50px var(--main-color);
+    box-shadow: 0 0 20px var(--main-color);
 }
 
 .btn-group{
@@ -356,8 +356,8 @@ span{
     height: 21px;
         width: 21px;
     background-color: var(--main-color);
-    box-shadow: 0 0 25px var(--main-color),
-                0 0 50px var(--main-color);
+    box-shadow: 0 0 0px var(--main-color),
+                0 0 10px var(--main-color);
     position: absolute;
     left: calc(50% - 8px);
     border-radius: 50%;
@@ -638,23 +638,23 @@ span{
   
           .progress:nth-child(5) {
             .bar span {
-                width: 75%;
+                width: 90%;
             }
           }
   
           .progress:nth-child(6) {
             .bar span {
-              width: 70%;
+              width: 60%;
             }
           }
           .progress:nth-child(7) {
             .bar span {
-                width: 70%;
+                width: 50%;
             }
           }
           .progress:nth-child(8) {
             .bar span {
-                width: 70%;
+                width: 90%;
             }
           }
         }
@@ -664,18 +664,18 @@ span{
         .skills-content {
           .progress:nth-child(1) {
             .bar span {
-                width: 85%;
+                width: 45%;
             }
           }
   
           .progress:nth-child(2) {
             .bar span {
-                width: 65%;
+                width: 80%;
             }
           }
           .progress:nth-child(3) {
             .bar span {
-                width: 63%;
+                width: 80%;
             }
           }
           .progress:nth-child(4) {
@@ -686,23 +686,23 @@ span{
   
           .progress:nth-child(5) {
             .bar span {
-                width: 82%;
+                width: 80%;
             }
           }
   
           .progress:nth-child(6) {
             .bar span {
-                width: 67%;
+                width: 70%;
             }
           }
           .progress:nth-child(7) {
             .bar span {
-                width: 70%;
+                width: 50%;
             }
           }
           .progress:nth-child(8) {
             .bar span {
-                width: 70%;
+                width: 75%;
             }
           }
         }
@@ -987,6 +987,14 @@ span{
     .footer {
       padding: 2rem 3%;
     }
+
+    .logo{
+      margin-left: 8rem;
+    }
+
+    .home{
+      height: 170vh;
+    }
   }
   @media (max-width: 895px) {
     #menu-icon {
@@ -1037,6 +1045,14 @@ span{
     }
     .services-container{
       grid-template-columns: repeat(1,1fr);
+    }
+
+    .logo{
+      margin-left: 8rem;
+    }
+
+    .home{
+      height: 170vh;
     }
   }
   
